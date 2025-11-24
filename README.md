@@ -33,7 +33,7 @@ requests
 pip install -r requirements.txt
 ```
 
-## Estructura   
+## 2 Estructura   
 ```pgsql
 📁 ExtraccionDatosMultiplesFuentesDia2Ejercicio/
 │
