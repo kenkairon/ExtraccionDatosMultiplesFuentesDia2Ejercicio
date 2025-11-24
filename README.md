@@ -22,13 +22,13 @@ pip install pandas openpyxl requests
 ```sh
 pip freeze > requeriments.txt
 ```
-## 1.4 Opcional En en plano que se tenga directo donde se tenga las dependencias 
+## 1.4 En en plano que se tenga directo donde se tenga las dependencias (Opcional)
 ```nginx 
 pandas
 openpyxl
 requests
 ```
-## 1.5 Se instala directo las dependecias
+## 1.5 Se instala directo las dependecias 
 ```sh
 pip install -r requirements.txt
 ```
