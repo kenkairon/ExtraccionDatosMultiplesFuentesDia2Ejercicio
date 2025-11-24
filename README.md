@@ -32,23 +32,24 @@ requests
 ```sh
 pip install -r requirements.txt
 ```
-README.md ← (este archivo)
 
-requirements.txt ← dependencias
-
-generate_data.py ← crea los archivos de ejemplo
-
-extract_data.py ← ejecuta la extracción y validaciones
-
-ventas.csv ← (generado por generate_data.py)
-
-datos.xlsx ← (generado)
-
-productos.json ← (generado)
-
-ventas.db ← (generado: SQLite)
-
-salida.txt  ← (generado por extract_data.py)
+## Estructura del Archivo   
+```pgsql
+📁 ExtraccionDatosMultiplesFuentesDia2Ejercicio/
+│
+├── README.md              ← (este archivo)
+├── requirements.txt       ← dependencias para instalar
+│
+├── generate_data.py       ← script que crea datos de ejemplo
+├── extract_data.py        ← script que realiza la extracción + validaciones
+│
+├── ventas.csv             ← generado por generate_data.py
+├── datos.xlsx             ← generado por generate_data.py
+├── productos.json         ← generado por generate_data.py
+├── ventas.db              ← generado por generate_data.py (SQLite)
+│
+└── salida.txt             ← generado por extract_data.py (resultados)
+```
 
 ## 3 Crear datos de ejemplo en diferentes formatos:
 ### generate_data.py
